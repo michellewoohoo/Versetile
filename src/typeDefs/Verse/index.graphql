@@ -1,0 +1,12 @@
+type Verse {
+	text: String
+	book: String
+	chapterNumberStart: Int
+	chapterNumberEnd: Int
+	verseNumberStart: Int
+	verseNumberEnd: Int 
+}
+
+type Query {
+  verse: Verse
+}
