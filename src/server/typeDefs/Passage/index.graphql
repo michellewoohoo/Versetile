@@ -1,0 +1,8 @@
+type Passage {
+	text: String
+	passage: String
+}
+
+type Query {
+  getPassage(userInput: String): Passage
+}

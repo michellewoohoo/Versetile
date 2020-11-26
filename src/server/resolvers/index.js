@@ -1,10 +1,10 @@
 import { mergeResolvers  } from 'merge-graphql-schemas';
 import User from './User';
-import Verse from './Verse';
+import Passage from './Passage';
 
 const resolvers = [
 	User,
-	Verse
+	Passage
 ];
 
 export default mergeResolvers (resolvers);
